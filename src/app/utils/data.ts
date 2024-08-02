@@ -42,6 +42,6 @@ export const menuContatos = [
 export const menuLocalizacao = [
   {
     name: "Rua Silvia de Faria Marcondes, 400, Parque Fernanda - São Paulo, 05889-410",
-    url: "/",
+    url: "https://maps.app.goo.gl/zYW6qa6P5SPjpuiB7",
   },
 ];
