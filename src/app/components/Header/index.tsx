@@ -2,6 +2,17 @@ import Image from "next/image";
 import { GridContainer } from "../GridContainer";
 import { ItemMenu } from "./ItemMenu";
 import Link from "next/link";
+import {
+  SheetDescription,
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "../ui/sheet";
+import { MenuIcon } from "lucide-react";
+import { Button } from "../ui/button";
+import { SideMenu } from "./SideMenu";
 
 const menuItems = [
   {
@@ -42,7 +53,21 @@ export function Header() {
             ))}
           </nav>
         </div>
-        <div>
+
+        <div className="block xl:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon" className="h-8 w-8">
+                <MenuIcon size={18} />
+              </Button>
+            </SheetTrigger>
+
+            <SheetContent className="p-0">
+              <SideMenu />
+            </SheetContent>
+          </Sheet>
+        </div>
+        <div className="hidden xl:flex">
           <Link href="https://wa.me/5511999999999" legacyBehavior>
             <a target="_blank" rel="noopener noreferrer">
               <Image
@@ -50,7 +75,7 @@ export function Header() {
                 width={40}
                 height={40}
                 alt="Whats logo"
-                className="w-[30px] h-[30px] xl:w-[40px] xl:h-[40px]"
+                className="w-[30px] h-[30px]"
               />
             </a>
           </Link>
