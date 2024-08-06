@@ -16,7 +16,7 @@ export function Footer() {
           <ItemNav title="Pages" itemsMenu={menuPages} />
           <ItemNav title="Imóveis" itemsMenu={menuImoveis} />
           <ItemNav title="Contatos" itemsMenu={menuContatos} />
-          <ItemNav title="Localização" itemsMenu={menuLocalizacao}  />
+          <ItemNav title="Localização" itemsMenu={menuLocalizacao} />
         </div>
 
         <div className="flex flex-col xl:flex-row items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8">
