@@ -9,5 +9,5 @@ export default function Home() {
       <SectionLares />
       <SectionSobre />
     </section>
-  )
+  );
 }

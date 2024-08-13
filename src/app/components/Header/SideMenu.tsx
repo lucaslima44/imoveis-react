@@ -1,34 +1,38 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function SideMenu() {
+interface SideMenuProps {
+  onClose: () => void; // Função para fechar o menu
+}
+
+export function SideMenu({ onClose }: SideMenuProps) {
   return (
     <div className="items-center justify-center text-center flex flex-col cursor-pointer">
-      <nav className="py-16 text-lg font-medium ">
+      <nav className="py-16 text-base font-medium ">
         <ul className="flex flex-col gap-10 items-center">
           <li>
-            <Link href="/" legacyBehavior>
-              <a>Home</a>
+            <Link href="/" onClick={onClose}>
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/imoveis" legacyBehavior>
-              <a>Imóveis</a>
+            <Link href="/imoveis" onClick={onClose}>
+              Imóveis
             </Link>
           </li>
           <li>
-            <Link href="/quem-somos" legacyBehavior>
-              <a>Quem Somos</a>
+            <Link href="/#sobre" onClick={onClose}>
+              Quem Somos
             </Link>
           </li>
           <li>
-            <Link href="/localizacao" legacyBehavior>
-              <a>Localização</a>
+            <Link href="/#localizacao" onClick={onClose}>
+              Localização
             </Link>
           </li>
         </ul>
       </nav>
-      <Image src="/whats-logo.webp" width={48} height={48} alt="Whatsapp" />
+      <Image src="/whats-logo.webp" width={40} height={40} alt="Whatsapp" />
     </div>
   );
 }
