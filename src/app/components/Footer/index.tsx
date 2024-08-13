@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <footer className="py-12 xl:pt-16">
       <GridContainer>
-        <div className="grid xl:flex grid-cols-2 gap-8 xl:gap-0 items-start justify-between pb-12 xl:pb-16">
+        <div className="text-xs grid xl:flex grid-cols-2 gap-8 xl:gap-0 items-start justify-between pb-4 xl:pb-16">
           <ItemNav title="Pages" itemsMenu={menuPages} />
           <ItemNav title="Imóveis" itemsMenu={menuImoveis} />
           <ItemNav title="Contatos" itemsMenu={menuContatos} />
@@ -26,7 +26,7 @@ export function Footer() {
             height={32}
             alt="Logo VA Imóveis"
           />
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 text-xs">
             © 2024 VA Lima Imóveis. Todos direitos reservados.
           </p>
         </div>

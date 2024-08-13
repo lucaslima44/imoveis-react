@@ -53,26 +53,26 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
         <CarouselNext />
       </Carousel>
 
-      <h2 className="text-xl font-semibold text-center text-blue-500 mt-4">
+      <h2 className="text-xl font-bold text-center text-blue-500 mt-4">
         {imovel.price}
       </h2>
       <p className="text-gray-700 text-center mt-2">{imovel.location}</p>
 
       <div className="flex mt-5 mb-4 items-center gap-4 justify-center">
         <div className="flex items-center gap-1">
-          <Home />
+          <Home className="w-4 h-4" />
           <h4 className="text-gray-800">{imovel.metros}</h4>
         </div>
         <div className="flex items-center gap-1">
-          <Bath />
+          <Bath className="w-4 h-4" />
           <h4 className="text-gray-800">{imovel.banheiros}</h4>
         </div>
         <div className="flex items-center gap-1">
-          <BedDouble />
+          <BedDouble className="w-4 h-4" />
           <h4 className="text-gray-800">{imovel.quartos}</h4>
         </div>
         <div className="flex items-center gap-1">
-          <Car />
+          <Car className="w-4 h-4" />
           <h4 className="text-gray-800">{imovel.garagem}</h4>
         </div>
       </div>

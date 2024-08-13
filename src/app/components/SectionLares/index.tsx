@@ -41,7 +41,7 @@ export function SectionLares() {
   return (
     <section className="py-6 w-full xl:mt-8">
       <div className="flex flex-col text-center gap-3">
-        <h1 className="text-xl font-bold">Recomendação</h1>
+        <h1 id="recomendacao" className="text-xl font-bold">Recomendação</h1>
         <p className="text-base">
           Procure pelo lar perfeito para sua{" "}
           <strong className="text-purple-700">moradia</strong>. <br />
@@ -70,7 +70,7 @@ export function SectionLares() {
               <h3 className="text-xs font-semibold mt-3 px-[1px]">
                 {property.title}
               </h3>
-              <p className="text-blue-700 text-[10px] mt-3">
+              <p className="text-blue-700 text-[10px] mb-[10px] mt-3">
                 {property.location}
               </p>
             </div>

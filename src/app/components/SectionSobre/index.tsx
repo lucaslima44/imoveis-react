@@ -6,7 +6,7 @@ export function SectionSobre() {
     <section id="sobre" className="pt-6 w-[90%] mx-auto">
       <div  className="flex flex-col items-center">
         <h4 className="text-purple-700 font-bold text-2xl">Quem somos</h4>
-        <p className="text-base/relaxed pt-6">
+        <p className="text-sm pt-8">
           Fundada em 2021, a V.A. Lima Imobiliária tem como missão ajudar todos
           a encontrarem seu próprio lar. <br /> Oferecemos uma variedade de
           serviços para atender às necessidades dos nossos clientes: <br />
@@ -22,7 +22,6 @@ export function SectionSobre() {
           conosco para obter mais informações ou agendar uma consulta.
         </p>
 
-        {/* Adicione um id ao contêiner do iframe */}
         <div id="localizacao" className="my-10 w-full h-full xl:w-[50%] xl:h-[300px]">
           <iframe
             className="w-full h-full"

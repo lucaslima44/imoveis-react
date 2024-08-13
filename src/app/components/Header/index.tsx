@@ -43,7 +43,7 @@ export function Header() {
       <GridContainer className="flex items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/">
-            <Image src="/logo.png" width={200} height={48} alt="VA Imóveis" />
+            <Image src="/logo.png" width={150} height={40} alt="VA Imóveis" />
           </Link>
 
           <nav className="flex items-center gap-8 mx-auto">

@@ -5,27 +5,20 @@ export const menuPages = [
   },
   {
     name: "Imovéis",
-    url: "/",
+    url: "/#recomendacao",
   },
   {
     name: "Quem somos",
-    url: "/",
+    url: "/#sobre",
   },
 ];
 
 export const menuImoveis = [
   {
-    name: "Casa",
-    url: "/",
+    name: "Ver imóveis",
+    url: "/imoveis",
   },
-  {
-    name: "Apartamento",
-    url: "/",
-  },
-  {
-    name: "Comercial",
-    url: "/",
-  },
+
 ];
 
 export const menuContatos = [
@@ -41,7 +34,7 @@ export const menuContatos = [
 
 export const menuLocalizacao = [
   {
-    name: "Rua Silvia de Faria Marcondes, 400, Parque Fernanda - São Paulo, 05889-410",
+    name: "Rua Silvia de Faria Marcondes, 400 - São Paulo, 05889-410",
     url: "https://maps.app.goo.gl/zYW6qa6P5SPjpuiB7",
   },
 ];

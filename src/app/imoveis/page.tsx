@@ -38,7 +38,7 @@ const Imoveis = () => {
                   className="w-full h-[167px] md:h-full object-cover"
                 />
               </div>
-              <h4 className="text-blue-300 font-bold mt-3">{property.price}</h4>
+              <h4 className="text-blue-300 text-xs font-bold mt-3">{property.price}</h4>
               <h3 className="text-xs font-semibold mt-3 px-[1px]">
                 {property.title}
               </h3>
