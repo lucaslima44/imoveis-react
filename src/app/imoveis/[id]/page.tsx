@@ -51,9 +51,7 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
         <CarouselNext />
       </Carousel>
 
-      <h2 className="text-xl font-bold text-center text-blue-500 mt-3">
-        {imovel.price}
-      </h2>
+     
       <p className="text-gray-700 text-center mt-2"></p>
 
       <div className="flex mt-5 mb-4 items-center gap-4 justify-center text-xs">

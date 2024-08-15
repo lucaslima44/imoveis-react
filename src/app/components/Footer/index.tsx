@@ -19,15 +19,15 @@ export function Footer() {
           <ItemNav title="Localização" itemsMenu={menuLocalizacao} />
         </div>
 
-        <div className="flex flex-row items-center  xl:items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8 ">
+        <div className="flex flex-row items-center xl:items-start xl:only:items-center justify-between border-t border-gray-200 pb-1 pt-5">
       
           <Image
             src="/vector.webp"
-            width={32}
-            height={32}
+            width={20}
+            height={20}
             alt="Logo VA Imóveis"
           />
-          <p className="text-gray-500 text-xs">
+          <p className="text-gray-500 text-[9px]">
             © 2024 VA Lima Imóveis. Todos direitos reservados.
           </p>
         </div>
