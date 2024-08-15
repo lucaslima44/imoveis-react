@@ -21,11 +21,11 @@ export function Footer() {
 
         <div className="flex flex-col xl:flex-row items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8">
           <Image
-            src="/vector.png"
+            src="/vector.webp"
             width={32}
             height={32}
             alt="Logo VA Imóveis"
-            
+
           />
           <p className="text-gray-500 text-xs">
             © 2024 VA Lima Imóveis. Todos direitos reservados.
