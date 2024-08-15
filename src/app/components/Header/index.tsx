@@ -39,7 +39,7 @@ export function Header() {
   const handleClose = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-0 w-full h-[80px] z-50 bg-white flex items-center border-b border-gray-100">
+    <header className="sticky top-0 w-full h-[63px] xl:h-[80px] z-50 bg-white flex items-center border-b border-gray-100">
       <GridContainer className="flex items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/">

@@ -32,7 +32,19 @@ export function SideMenu({ onClose }: SideMenuProps) {
           </li>
         </ul>
       </nav>
-      <Image src="/whats-logo.webp" width={40} height={40} alt="Whatsapp" />
+      <Link
+            href="https://wa.me/5511997111030"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/whats-logo.webp"
+              width={40}
+              height={40}
+              alt="Whats logo"
+              className="w-[30px] h-[30px]"
+            />
+          </Link>
     </div>
   );
 }
