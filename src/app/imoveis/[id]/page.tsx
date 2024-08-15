@@ -51,13 +51,13 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
         <CarouselNext />
       </Carousel>
 
-      <h2 className="text-xl font-bold text-center text-blue-500 mt-4">
+      <h2 className="text-xl font-bold text-center text-blue-500 mt-3">
         {imovel.price}
       </h2>
       <p className="text-gray-700 text-center mt-2"></p>
 
-      <div className="flex mt-5 mb-4 items-center gap-4 justify-center">
-        <div className="flex items-center gap-1 text-xs">
+      <div className="flex mt-5 mb-4 items-center gap-4 justify-center text-xs">
+        <div className="flex items-center gap-1">
           <MapPinned className="w-4 h-4" />
           <h4>{imovel.location}</h4>
         </div>
@@ -79,7 +79,7 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
         </div>
       </div>
 
-      <div className="bg-gray-200 p-4 rounded-md w-full  xl:w-[50%]  grid justify-center justify-items-center mb-4 mx-auto gap-1">
+      <div className="bg-gray-200 p-4 xl:p-[4px] rounded-md w-full  xl:w-[50%]  grid justify-center justify-items-center mb-4 mx-auto gap-1">
         <h5>Valor do {imovel.venda ? "imóvel para venda" : "aluguel"}:</h5>
         <h4 className="font-bold">
           {imovel.price} {imovel.aluguel ? "/mês" : ""}

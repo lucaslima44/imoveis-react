@@ -39,7 +39,7 @@ export function Header() {
   const handleClose = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-0 w-full h-[63px] xl:h-[80px] z-50 bg-white flex items-center border-b border-gray-100">
+    <header className="sticky top-0 w-full h-[63px] z-50 bg-white flex items-center border-b border-gray-100">
       <GridContainer className="flex items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/">
@@ -83,11 +83,11 @@ export function Header() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/whats-logo.webp"
+              src="/whats.webp"
               width={40}
               height={40}
               alt="Whats logo"
-              className="w-[30px] h-[30px]"
+              className="w-[30px] h-[30px] rounded-md"
             />
           </Link>
         </div>

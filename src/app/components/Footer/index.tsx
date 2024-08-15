@@ -10,7 +10,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="py-12 xl:pt-16">
+    <footer className="pt-12 pb-4 xl:pt-16">
       <GridContainer>
         <div className="text-xs px-3 xl:px-0 text-center xl:text-start grid xl:flex grid-cols-2 gap-8 xl:gap-0 items-start justify-between pb-4 xl:pb-16">
           <ItemNav title="Pages" itemsMenu={menuPages} />
@@ -19,13 +19,13 @@ export function Footer() {
           <ItemNav title="Localização" itemsMenu={menuLocalizacao} />
         </div>
 
-        <div className="flex flex-col xl:flex-row items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8">
+        <div className="flex flex-row items-center  xl:items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8 ">
+      
           <Image
             src="/vector.webp"
             width={32}
             height={32}
             alt="Logo VA Imóveis"
-
           />
           <p className="text-gray-500 text-xs">
             © 2024 VA Lima Imóveis. Todos direitos reservados.

@@ -38,11 +38,11 @@ export function SideMenu({ onClose }: SideMenuProps) {
             rel="noopener noreferrer"
           >
             <Image
-              src="/whats-logo.webp"
+              src="/whats.webp"
               width={40}
               height={40}
               alt="Whats logo"
-              className="w-[30px] h-[30px]"
+              className="w-[40px] h-[40px] rounded-md"
             />
           </Link>
     </div>
