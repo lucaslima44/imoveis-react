@@ -21,8 +21,8 @@ export function Footer() {
 
         <div className="flex flex-col xl:flex-row items-start xl:only:items-center justify-between gap-6 xl:gap-0 border-t border-gray-200 pt-8">
           <Image
-            src="/logo.png"
-            width={142}
+            src="/vector.png"
+            width={32}
             height={32}
             alt="Logo VA Imóveis"
           />

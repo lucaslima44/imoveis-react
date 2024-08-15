@@ -11,7 +11,7 @@ export function SectionLares() {
       id: 1, // Adicione um ID único para cada imóvel
       src: "/imovel-1.webp",
       title: "Apartamento Cohab Adventista",
-      price: "R$ 320.000,00",
+      price: "R$ 3.000,00 /mês",
       location: "Av. Paulista",
     },
     {
@@ -25,13 +25,13 @@ export function SectionLares() {
       id: 3,
       src: "/imovel-3.webp",
       title: "Apartamento Village",
-      price: "R$ 550.000,00",
+      price: "R$ 5.000,00 /mês",
       location: "Est. de Itapecerica",
     },
   ];
 
   const handleNavigation = (id: number) => {
-    router.push(`/imoveis/${id}`); // Navegação com base no ID do imóvel
+    router.push(`/imoveis/${id}`); 
   };
 
   const handleViewAll = () => {
@@ -41,7 +41,7 @@ export function SectionLares() {
   return (
     <section className="py-6 w-full xl:mt-8">
       <div className="flex flex-col text-center gap-3">
-        <h1 id="recomendacao" className="text-xl font-bold">Recomendação</h1>
+        <h4 id="recomendacao" className="text-xl font-bold">Recomendação</h4>
         <p className="text-base">
           Procure pelo lar perfeito para sua{" "}
           <strong className="text-purple-700">moradia</strong>. <br />
@@ -54,8 +54,8 @@ export function SectionLares() {
           {properties.map((property) => (
             <div
               key={property.id}
-              onClick={() => handleNavigation(property.id)} // Passe o ID ao navegar
-              className="max-w-full w-full h-full flex-shrink-0 bg-white xl:p-4 p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
+              onClick={() => handleNavigation(property.id)} 
+              className="max-w-full w-full h-full flex-shrink-0 bg-white p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
             >
               <div className="w-full overflow-hidden">
                 <Image

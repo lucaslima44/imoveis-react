@@ -1,7 +1,7 @@
 export const menuPages = [
   {
     name: "Home",
-    url: "/",
+    url: "/#home",
   },
   {
     name: "Imovéis",
@@ -23,12 +23,12 @@ export const menuImoveis = [
 
 export const menuContatos = [
   {
-    name: "(11) 99999-9999",
-    url: "/",
+    name: "(11) 99711-1030",
+    url: "tel:+5511997111030",
   },
   {
-    name: "(11) 99999-9999",
-    url: "/",
+    name: "(11) 5824-8807",
+    url: "tel:+551158248807",
   },
 ];
 
