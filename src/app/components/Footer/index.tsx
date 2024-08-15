@@ -25,6 +25,7 @@ export function Footer() {
             width={32}
             height={32}
             alt="Logo VA Imóveis"
+            
           />
           <p className="text-gray-500 text-xs">
             © 2024 VA Lima Imóveis. Todos direitos reservados.
