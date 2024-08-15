@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Imobiliária",
   description: "A imobiliária de sua confiança está aqui.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.png",
   },
 };
 
