@@ -50,12 +50,12 @@ export function SectionLares() {
         </p>
       </div>
       <div className="relative mt-10 px-0 xl:px-3 mx-1">
-        <div className="grid grid-cols-2 gap-4 xl:flex xl:justify-center xl:flex-wrap xl:gap-6">
+        <div className="overflow-x-scroll [&::-webkit-scrollbar]:hidden flex gap-3 xl:grid-cols-2 xl:justify-center xl:flex-wrap xl:gap-6">
           {properties.map((property) => (
             <div
               key={property.id}
               onClick={() => handleNavigation(property.id)} 
-              className="max-w-full w-full h-full flex-shrink-0 bg-white p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
+              className="max-w-full h-full flex-shrink-0 bg-white p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
             >
               <div className="w-full overflow-hidden">
                 <Image

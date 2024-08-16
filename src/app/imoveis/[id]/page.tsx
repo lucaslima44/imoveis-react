@@ -27,9 +27,9 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
 
   return (
     <section className="p-6 w-full max-w-3xl mx-auto">
-      <h1 className="text-[18px] text-center font-bold mb-4 text-gray-800">
+      <h2 className="text-[18px] text-center font-semibold mb-4 text-gray-800">
         {imovel.title}
-      </h1>
+      </h2>
 
       <Carousel>
         <CarouselContent>
@@ -88,7 +88,7 @@ const ImovelPage = ({ params }: ImovelPageProps) => {
         <h3 className="font-medium">Descrição do imóvel:</h3>
       </div>
 
-      <p className="text-base text-gray-700 mb-3 text-justify">{imovel.description}</p>
+      <p className="text-base text-gray-700 mb-20 text-justify">{imovel.description}</p>
     </section>
   );
 };

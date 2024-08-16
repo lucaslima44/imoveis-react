@@ -82,12 +82,13 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            
             <Image
-              src="/whats.webp"
+              src="/wpp.webp"
               width={40}
               height={40}
               alt="Whats logo"
-              className="w-[30px] h-[30px] rounded-md"
+              className="w-[30px] h-[30px]"
             />
           </Link>
         </div>

@@ -5,7 +5,7 @@ export function SectionHero() {
     <section id="home">
       <div className="xl:ml-20 flex flex-col xl:flex-row gap-4 justify-between">
         <div className="text-center xl:text-left xl:w-1/2">
-          <h1 className="text-lg w-full block mx-auto xl:mx-0 py-3 font-bold text-gray-900 xl:mt-[70px] xl:text-5xl xl:w-[40%]">
+          <h1 className="text-lg w-full block mx-auto xl:mx-0 pt-8 pb-3 font-bold text-gray-900 xl:mt-[70px] xl:text-5xl xl:w-[40%]">
             Procurando seu novo{" "}
             <strong className="text-purple-700">imóvel</strong>?
           </h1>
