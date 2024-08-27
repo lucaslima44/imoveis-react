@@ -9,7 +9,7 @@ export function SectionHero() {
             Procurando seu novo{" "}
             <strong className="text-purple-700">imóvel</strong>?
           </h1>
-          <p className="text-sm xl:text-base px-4 py-3">
+          <p className="text-sm xl:text-base px-4 py-3 xl:pl-4 xl:pr-36 xl:w-[90%]">
             Vamos encontrar sua nova casa. <br /> Todo sonho começa com uma
             paixão e toda vida começa com um sonho de vida perfeita. <br />{" "}
             Aqui, estamos ajudando você a conseguir a casa perfeita com as

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation"; 
 
 export function SectionLares() {
@@ -37,7 +38,6 @@ export function SectionLares() {
   const handleViewAll = () => {
     router.push('/imoveis');
   };
-
   return (
     <section className="py-6 w-full xl:mt-8">
       <div className="flex flex-col text-center gap-3">
@@ -52,28 +52,35 @@ export function SectionLares() {
       <div className="relative mt-10 px-0 xl:px-3 mx-1">
         <div className="overflow-x-scroll [&::-webkit-scrollbar]:hidden flex gap-3 xl:grid-cols-2 xl:justify-center xl:flex-wrap xl:gap-6">
           {properties.map((property) => (
-            <div
-              key={property.id}
-              onClick={() => handleNavigation(property.id)} 
-              className="max-w-full h-full flex-shrink-0 bg-white p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
+            <Link 
+              key={property.id} 
+              href={`/imoveis/${property.id}`} 
+              passHref 
+              legacyBehavior
             >
-              <div className="w-full overflow-hidden">
-                <Image
-                  src={property.src}
-                  width={300}
-                  height={200}
-                  alt="imagem casa"
-                  className="w-full h-[167px] md:h-full object-cover"
-                />
-              </div>
-              <h4 className="text-blue-300 font-bold mt-3">{property.price}</h4>
-              <h3 className="text-xs font-semibold mt-3 px-[1px]">
-                {property.title}
-              </h3>
-              <p className="text-blue-700 text-[10px] mb-[10px] mt-3">
-                {property.location}
-              </p>
-            </div>
+              <a 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="max-w-full h-full flex-shrink-0 bg-white p-0 rounded-[5px] text-center xl:cursor-pointer xl:w-[300px] xl:h-[311px]"
+              >
+                <div className="w-full overflow-hidden">
+                  <Image
+                    src={property.src}
+                    width={300}
+                    height={200}
+                    alt="imagem casa"
+                    className="w-full h-[167px] md:h-full object-cover"
+                  />
+                </div>
+                <h4 className="text-blue-300 font-bold mt-3">{property.price}</h4>
+                <h3 className="text-xs font-semibold mt-3 px-[1px]">
+                  {property.title}
+                </h3>
+                <p className="text-blue-700 text-[10px] mb-[10px] mt-3">
+                  {property.location}
+                </p>
+              </a>
+            </Link>
           ))}
         </div>
       </div>

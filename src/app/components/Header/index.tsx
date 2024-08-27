@@ -8,6 +8,7 @@ import { MenuIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import { SideMenu } from "./SideMenu";
 import { useState } from "react";
+import { WhatsAppOutlined } from "@ant-design/icons";
 
 const menuItems = [
   {
@@ -83,13 +84,7 @@ export function Header() {
             rel="noopener noreferrer"
           >
             
-            <Image
-              src="/wpp.webp"
-              width={40}
-              height={40}
-              alt="Whats logo"
-              className="w-[30px] h-[30px]"
-            />
+            <WhatsAppOutlined />
           </Link>
         </div>
       </GridContainer>
