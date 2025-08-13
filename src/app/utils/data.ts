@@ -23,18 +23,18 @@ export const menuImoveis = [
 
 export const menuContatos = [
   {
-    name: "(11) 99711-1030",
-    url: "tel:+5511997111030",
+    name: "(11) 91111-0000",
+    url: "tel:+5511911110000",
   },
   {
-    name: "(11) 5824-8807",
-    url: "tel:+551158248807",
+    name: "(11) 2000-0000",
+    url: "tel:+551120000000",
   },
 ];
 
 export const menuLocalizacao = [
   {
-    name: "Rua Silvia de Faria Marcondes, 400 - São Paulo, 05889-410",
-    url: "https://maps.app.goo.gl/zYW6qa6P5SPjpuiB7",
+    name: "Rua Teste, 777 - São Paulo, 02222-000",
+    url: "https://maps.app.goo.gl/",
   },
 ];

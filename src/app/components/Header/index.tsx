@@ -44,7 +44,12 @@ export function Header() {
       <GridContainer className="flex items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/">
-            <Image src="/vector.webp" width={32} height={32} alt="VA Imóveis" />
+            <Image
+              src="/vector.webp"
+              width={32}
+              height={32}
+              alt="Logo Imóveis"
+            />
           </Link>
 
           <nav className="flex items-center gap-8 mx-auto">
@@ -79,12 +84,11 @@ export function Header() {
         </div>
         <div className="hidden xl:flex">
           <Link
-            href="https://wa.me/5511997111030"
+            href="https://wa.me/5511"
             target="_blank"
             rel="noopener noreferrer"
           >
-            
-            <WhatsAppOutlined />
+            <WhatsAppOutlined className="text-[30px]" />
           </Link>
         </div>
       </GridContainer>

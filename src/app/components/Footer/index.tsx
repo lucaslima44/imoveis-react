@@ -20,15 +20,14 @@ export function Footer() {
         </div>
 
         <div className="flex flex-row items-center xl:items-start xl:only:items-center justify-between border-t border-gray-200 pb-1 pt-5">
-      
           <Image
             src="/vector.webp"
             width={20}
             height={20}
-            alt="Logo VA Imóveis"
+            alt="Logo Imóveis"
           />
           <p className="text-gray-500 text-[9px]">
-            © 2024 VA Lima Imóveis. Todos direitos reservados.
+            © 2025 Imóveis. Todos direitos reservados.
           </p>
         </div>
       </GridContainer>
