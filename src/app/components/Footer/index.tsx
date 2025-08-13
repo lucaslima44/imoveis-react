@@ -26,7 +26,7 @@ export function Footer() {
             height={20}
             alt="Logo Imóveis"
           />
-          <p className="text-gray-500 text-[9px]">
+          <p className="text-gray-500 text-[10px]">
             © 2025 Imóveis. Todos direitos reservados.
           </p>
         </div>

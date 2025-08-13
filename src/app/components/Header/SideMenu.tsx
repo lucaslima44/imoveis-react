@@ -68,7 +68,7 @@ export function SideMenu({ onClose }: SideMenuProps) {
             </div>
             <div>
               <Link
-                href="https://wa.me/5511997111030"
+                href="https://wa.me/5511"
                 target="_blank"
                 rel="noopener noreferrer"
                 passHref
